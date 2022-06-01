@@ -1,4 +1,33 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+body{
+    background: #040404;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+main{
+    background: #FFF;
+    width: fit-content;
+    padding: 1em;
+    border-radius: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+main h1{
+    color: #A0A0A0;
+}
+main form{
+    font-family: sans-serif;
+}
+.row{
+    display: flex;
+    margin: 1em 0;
+    /* justify-content: space-around; */
+}
+label{
+    flex: .5;
+}
+input{
+    flex: .5;
+}
+select{
+    flex: .1;
+}
